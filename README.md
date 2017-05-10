@@ -1,2 +1,2 @@
-# infrastructure-manager
-SAA infrastucture incl. managment client for Terraform
+# Infrastructure-manager
+SAA infrastucture incl. managment client for Terraform (0.9.4)
