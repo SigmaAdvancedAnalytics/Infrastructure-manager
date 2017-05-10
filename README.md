@@ -1,14 +1,11 @@
 # Infrastructure-manager
 SAA infrastucture incl. managment client for Terraform (0.9.4)  
 
-# Basic Two-Tier AWS Architecture
+# Basic AWS Architecture
 
-This provides a template for running a simple two-tier architecture on Amazon
-Web services. The premise is that you have stateless app servers running behind
-an ELB serving traffic.
+This provides a template for provisioning a single EC2 instance running NGINX.
 
-To simplify the example, this intentionally ignores deploying and
-getting your application onto the servers. However, you could do so either via
+This example does not yet include loading applications onto the servers. However, you could do so either via
 [provisioners](https://www.terraform.io/docs/provisioners/) and a configuration
 management tool, or by pre-baking configured AMIs with
 [Packer](http://www.packer.io).
